@@ -41,6 +41,7 @@ Here are some recommended extensions to use!
 https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner
 
 2. **Beautify/Prettier** -- Will format your code to clean it up!
+
 Beautify: https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify
 
 Prettier: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode

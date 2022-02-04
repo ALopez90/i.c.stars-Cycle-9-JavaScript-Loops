@@ -1,0 +1,80 @@
+Cycle 9 JavaScript Loops Lesson
+Date/Time: 3rd February 2022 | 6:30PM-8:00PM CST
+
+/***************************/
+// SECTION Introduction
+NOTE Objectives
+At the end of this lesson you will...
+1. Know how to write all of the basic loops
+2. Know the difference between the loops
+3. Know how to control the loops
+
+NOTE What is a loop?
+A loop is a piece of code that executes repeatedly when a condition is met. They're very useful when working with arrays and objects! It's essentially automating a repetitive task to make your code more efficient (if done correctly).
+
+!SECTION
+
+/***************************/
+// SECTION Loop Structure
+Loops can be put into two categories...
+
+NOTE - Entry Controlled
+These loops are controlled with a condition at the entrance. Requires for a condition to be met before moving inside the loop.
+Example:
+for and while loops
+
+NOTE - Exit Controlled
+These loops are controlled with a condition at the exit. Will enter the loop for until a condition is met.
+Example:
+do...while loops
+
+!SECTION
+
+// SECTION Lesson Plan
+NOTE It's recommended you go through the lessons like so:
+1. While Loops (lessons\whileLoops.js)
+>While
+>Do... While
+
+2. For Loops (lessons\forLoops.js)
+>For
+>For... In
+>For... of
+
+!SECTION
+
+/***************************/
+// SECTION Comparison Between Loops
+
+NOTE - While Loops (While vs. Do...While)
+The "While" loop differs from the "Do...While" loop in one important way...
+
+The "While" loop evaluates the condition at the start of every iteration. Make sure that the condition eventually goes false!! You don't want this to loop forever. (Entry Controlled Loop)
+The "Do...While" loop will always be executed once even if the condition is false! This is due to the fact that the condition is evaluated at the end of the loop. (Exit Controlled loop)
+
+NOTE - For Loops (Will be added later)
+
+!SECTION
+
+/***************************/
+// SECTION Extras
+NOTE Extensions
+Here are some recommended extensions to use!
+
+1. Code Runner -- Allows for you to run code directly in VS Code! Great for debugging.
+LINK - https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner
+
+2. Beautify/Prettier -- Will format your code to clean it up!
+Beautify: LINK - https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify
+Prettier: LINK - https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+
+3. Comment Anchors -- An amazing way to keep track of your development and to mark off important sections. You see them used everywhere in these files (NOTE, SECTION, !SECTION, TODO, etc.)!
+LINK - https://marketplace.visualstudio.com/items?itemName=ExodiusStudios.comment-anchors
+
+4. Bracket Pair Colorizer 2 -- Will color the brackets to make it easier to see what the pairs are.
+LINK - https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2
+
+5. Code Spell Checker -- Great for just general spell checking!
+LINK - https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
+
+!SECTION

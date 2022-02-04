@@ -38,6 +38,7 @@ Here are some recommended extensions to use!
 [!] -- Highly recommend
 
 1. [!] **Code Runner** -- Allows for you to run code directly in VS Code! Great for debugging.
+
 https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner
 
 2. **Beautify/Prettier** -- Will format your code to clean it up!
@@ -47,12 +48,15 @@ Beautify: https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify
 Prettier: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
 
 3. [!] **Comment Anchors** -- An amazing way to keep track of your development and to mark off important sections. You see them used everywhere in these files (NOTE, SECTION, !SECTION, TODO, etc.)!
+
 https://marketplace.visualstudio.com/items?itemName=ExodiusStudios.comment-anchors
 
 4. **Bracket Pair Colorizer 2** -- Will color the brackets to make it easier to see what the pairs are.
+
 https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2
 
 5. **Code Spell Checker** -- Great for just general spell checking!
+
 https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
 ## Hi, I'm Alexa! 👋
 I graduated from i.c.stars |* Milwaukee summer of 2019, Cycle 3. 

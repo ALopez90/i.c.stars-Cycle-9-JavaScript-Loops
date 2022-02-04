@@ -20,7 +20,7 @@ The following lessons were covered:
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/ALopez90/C9-JavaScript-Loops.git
 ```
 
 Go to the project directory
@@ -29,17 +29,6 @@ Go to the project directory
   cd my-project
 ```
 
-Install dependencies
-
-```bash
-  npm install
-```
-
-Start the server
-
-```bash
-  npm run start
-```
 
 
 ## Visual Studio Code
@@ -90,3 +79,4 @@ If you have any feedback, please reach out to me at alopez2@icstars.org
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+

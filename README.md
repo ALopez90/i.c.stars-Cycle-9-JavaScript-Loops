@@ -62,10 +62,10 @@ https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spel
 I graduated from i.c.stars |* Milwaukee summer of 2019, Cycle 3. 
 I wore many hats as an intern -- project manager, technical analyst, and scrum master. 
 Leading my team as the primary developer, we were selected as the winners of Cycle 3's sponsor project. 
-It led to use presenting it in front of C-level executives at an event called iOpener at the end of that same year.
+It led to us presenting it in front of C-level executives at an event called iOpener at the end of that same year.
 
 Continuing my passion in technology, I found myself working for MacGregor Partners.
-Working my way up, I'm now a full stack developer for MacGregor Partners and considered the resident expert at ExtJS!
+Working my way up, I'm now a full stack software developer for MacGregor Partners and considered the resident expert at ExtJS!
 Current techstack: HTML5, CSS3, JavaScript, ExtJS, MOCA, MS SQL, and Java.
 
 

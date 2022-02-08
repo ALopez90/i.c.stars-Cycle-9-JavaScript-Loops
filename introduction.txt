@@ -50,9 +50,16 @@ NOTE - While Loops (While vs. Do...While)
 The "While" loop differs from the "Do...While" loop in one important way...
 
 The "While" loop evaluates the condition at the start of every iteration. Make sure that the condition eventually goes false!! You don't want this to loop forever. (Entry Controlled Loop)
+
 The "Do...While" loop will always be executed once even if the condition is false! This is due to the fact that the condition is evaluated at the end of the loop. (Exit Controlled loop)
 
-NOTE - For Loops (Will be added later)
+NOTE - For Loops (For vs. For...In vs. For...Of)
+
+The "For" loop is the most common loop! It's a great way to have complete control of the array that's being looped through. You can control the number of times it loops (initializer), when the code runs (condition), and the iteration. (Entry Controlled loop)
+
+The "For...In" loop, although can be used with both objects AND arrays, is often used more for objects. It's not recommend to use if the index ORDER is important in an array. (Entry Controlled loop)
+
+The "For...Of" loop can be used with strings and arrays. DOES NOT work with objects. (Entry Controlled loop)
 
 !SECTION
 

@@ -1,12 +1,14 @@
 // SECTION Homework
 // 1. Write a loop that iterates from 0 - 21. Check if the number is an odd or even number. If it's odd, print "[1] is very odd.". If it's even, print "[2] is even!".
-// 2. CHALLENGE: Write a loop that iterates through an array with a mix of data types. Extract the elements of the array and create a new array depending on the data type. Print out the new arrays.
-// Example:
-// let someArr = [1, "hello", 34, "hi", true,"hola", 45, false]
-// prints out:
-// [1, 34, 45] (integers only)
-// ["hello", "hi", "hola"] (strings only)
-// [true, false] (booleans only)
+// CHALLENGE ONE: Create a "For...Of" loop that prints out each letter in every element inside an array! Example: ["Spanish", "Japanese", "French"] >>> S,p,a,n,i,s,h,J,a,p,a,n,e,s,e,F,r,e,n,c,h
+// 
+// CHALLENGE TWO: Write a loop that iterates through an array with a mix of data types. Extract the elements of the array and create a new array depending on the data type. Print out the new arrays.
+//  Example:
+//  let someArr = [1, "hello", 34, "hi", true,"hola", 45, false]
+//  Prints out:
+//  [1, 34, 45] (integers only)
+//  ["hello", "hi", "hola"] (strings only)
+//  [true, false] (booleans only)
 // !SECTION
 
 // SECTION Table of Content:
@@ -24,7 +26,7 @@
 // NOTE Description: The "for" loop is the most common loop that's used and is typically used to run a chunk of code a certain amount of times.
 
 // NOTE Syntax:
-for (initializer ; condition ; iteration) {
+for (initializer; condition; iteration) {
     // code block
 }
 
@@ -84,7 +86,7 @@ for (let n = 0; n < shoppingList.length; n++) {
 let zoo = ["Giraffe", "Lion", "Tiger", "Bear", "Monkey"];
 
 for (let z = 0; z < zoo.length; z++) {
-    console.log(zoo[3],zoo[4]);
+    console.log(zoo[3], zoo[4]);
 }
 
 // Method Two: Increased the value of the initializer
@@ -181,3 +183,27 @@ for (let letter of welcome) {
 // NOTE Do It Yourself (not done in class) -- Create a "For...Of" loop that prints out each letter in every element inside an array! Example: ["Spanish", "Japanese", "French"] >>> S,p,a,n,i,s,h,J,a,p,a,n,e,s,e,F,r,e,n,c,h
 
 // !SECTION
+
+// NOTE Interview challenge: Loop through an array of 5 random numbers (includes one negative number). Sort the numbers and print new array. Can't use sort() or functions.
+let numbers = [3, 7, 2, -1, 10]
+// Expected outcome: [-1, 2, 3, 7, 10]
+
+for (let i = 0; i < numbers.length; i++) {
+    for (let j = 0; j < i; j++) {
+        // If first value is less than second value...
+        // Create the newNum variable with the first value.
+        // Change the value of the first one to the same as the second.
+        // Change the second to be the value of the first by using the newNum variable.
+        // ...basically swap places.
+
+        // Notes below written with these values:
+        // i num: -1
+        // j num: 7
+        if (numbers[i] < numbers[j]) { // is -1 less than 7?
+            let newNum = numbers[i]; // Make new variable with the value of -1
+            numbers[i] = numbers[j]; // Change -1 to 7.
+            numbers[j] = newNum; // Change 7 to -1
+        }
+        console.log(numbers); // Will print out the array after each iteration to see the changes :)
+    }
+}

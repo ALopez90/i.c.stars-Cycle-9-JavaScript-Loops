@@ -41,6 +41,10 @@ NOTE It's recommended you go through the lessons like so:
 >For... In
 >For... of
 
+3. Loop Control (lessons\loopControl.js)
+>Continue
+>Break
+
 !SECTION
 
 /***************************/
